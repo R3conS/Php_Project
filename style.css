@@ -1,0 +1,70 @@
+
+body{
+	margin:0;
+	padding: 0;
+	background:url(images/pic1.jpg);
+	background-size: cover;
+	background-position: center-bottom;
+	font-family: sans-serif;
+}
+.loginbox{
+	width: 320px;
+	height: 420px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	box-sizing: border-box;
+}
+label{
+	margin: 0;
+	padding: 0;
+	font-weight: bolder;
+	color: black;
+}
+input{
+	width: 100%;
+	margin-bottom: 20px;
+	box-shadow: 10px;
+}
+a:visited{
+	color: #0f0e0e;
+}
+p{
+	width: 1000px;
+	margin-left: 20px;
+	font-weight: bold;
+	animation: change 2s infinite;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 35px;
+}
+@keyframes change{
+	0%{color:#ffe500; }
+	25%{color:#3fe209; }
+	50%{color:#0ee2f9;}
+	75%{color:#060cce; }
+	100%{color:#ba05ce;}
+}
+@keyframes bchange{
+	0%{background:#ffe500; }
+	25%{background:#3fe209; }
+	50%{background:#0ee2f9;}
+	75%{background:#060cce; }
+	100%{background:#ba05ce;}
+}
+a{
+	text-decoration: none;
+}
+b{
+	animation: change 2s infinite;
+}
+input{
+	animation: bchange 2s infinite;
+
+}
+.button{
+	animation: change 2s infinite;
+}
+.logo{
+	animation: bchange 2s infinite;
+}
